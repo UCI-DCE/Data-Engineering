@@ -1,0 +1,4 @@
+Hello UCI-DCE Students. Hello again, world! An red apple is tasty.
+This is a simple text file.
+It contains multiple lines, and words.
+Hello, UCI-DCE.

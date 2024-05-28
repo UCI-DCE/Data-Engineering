@@ -1,0 +1,29 @@
+##### `Sample text : news.txt`
+### YOUR CODE HERE##
+#read the news articale from text
+
+Democrats grapple with the right way to talk about Biden immigration policies|Politics,Law|2024-05-26|4.5
+Ozempic reduces risk of serious illness and death in people with diabetes and kidney disease|Health, Science|2024-05-24|4.8
+Tech Giant Announces Massive Layoffs|Business,Technology|2023-05-15|4.2
+Climate Change Summit Concludes with Historic Agreement|Environment,Politics|2023-05-20|4.6
+Controversial Bill Passes in State Legislature|Politics,Law|2023-05-22|3.9
+New Advances in Renewable Energy Technology|Science,Technology|2023-05-24|4.3
+Protests Erupt Nationwide Over Income Inequality|Society,Politics|2023-05-25|4.1
+An imbalance of two health fats affects your early death risk|Health,Science|2024-05-14|4.7
+
+
+#### Tasks:
+
+1. Load the dataset into an RDD:
+   * Create an RDD from the news.txt file.
+   * Split each line of the RDD into individual fields (title, category, release year, and rating).
+2. Filter the RDD:
+   * Create a new RDD that contains only the news released after the year 2023.
+   * Create a new RDD that contains only the news with a rating greater than 4.5.
+3. Transform the RDD:
+   * Create a new RDD that contains the news title and the release year.
+   * Create a new RDD that contains the news title and the rating for each title.
+4. Perform Actions on the RDD:
+   * Find the news with the highest rating.
+   * Find the average rating of all the news.
+   * Find the number of unique news categories or tags in the dataset.
